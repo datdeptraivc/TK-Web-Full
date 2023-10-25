@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+
+    <div class="header">
+
+        <div>
+
+            <img src="./image/logo_scaal.gif" alt="">
+
+        </div>
+
+    </div>
+
+
+    <div class="body">
+
+        <div class="menu_left">
+
+            
+
+                <ul class="img_left">
+                    <li><img src="./image/ourstory_up.gif" alt=""></li>
+                    <li><img src="./image/products_up.gif" alt=""></li>
+                    <li><img src="./image/thisweek_up.gif" alt=""></li>
+                    <li><img src="./image/register.gif" alt=""></li>
+                </ul>
+
+
+                <div class="duoi1">
+                    <img src="./image/logo_globe_a.gif" alt="">
+                </div>
+
+           
+
+        </div>
+
+        <div class="menu_right">
+
+            <div class="menu_right1">
+
+                <span class="h1"> Đăng Ký Thành Viên </span>
+
+
+                <ul>
+                    <li>Họ Và Tên :</li>
+                    <li>Địa Chỉ :</li>
+                    <li>Điện Thoại :</li>
+                    <li>Giới Tính :</li>
+                    <li>Mật Khẩu :</li>
+                    <li>Các Nước Sử Dụng Cafe nhiều <br> Nhất : </li>
+                    <li>Ghi Chú Thêm :</li>
+                </ul>
+
+
+            </div>
+
+            <div class="menu_right2">
+
+                <ul class="textbox">
+                    <li><input type="text" placeholder=" Họ và Tên"></li>
+                </ul>
+                <ul class="textbox">
+                    <li><input type="text" placeholder=" Địa Chỉ"></li>
+                </ul>
+                <ul class="textbox">
+                    <li><input type="text" placeholder="Điện Thoại" style="width: 100px;"></li>
+                </ul>
+
+                <div class="box">
+                    <label class="gioitinh">Nam
+                        <input type="radio" checked="checked" name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+
+                    <label class="gioitinh">Nữ
+                        <input type="radio" name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+
+                <ul class="textbox">
+                    <li><input type="password" placeholder="Mật Khẩu" id="myInput"></li>
+                    <li><input type="checkbox" onclick="myFunction()">Hiện Mật Khẩu</li>
+                </ul>
+
+                <div class="box">
+                    <label class="container"> Đức
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+
+                    <label class="container"> Mỹ
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+
+                <div class="box">
+                    <label class="container"> Pháp
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+
+                    <label class="container"> Cafe Ý
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+
+                <ul>
+                    <li><input type="text" placeholder=" Ghi Chú" style="height:70px" textarea id="subject"
+                            name="subject"></li>
+                    <li style="line-height: 50px;"> <button> Đồng Ý</button></li>
+                </ul>
+
+                
+
+            </div>
+
+            <div>
+                <img src="./image/logo_globe_b.gif" alt="">
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myInput");
+            if (x.type === "password") {
+                x.type = "text";
+            } else {
+                x.type = "password";
+            }
+        }
+    </script>
+</body>
+
+</html>

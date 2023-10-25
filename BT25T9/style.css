@@ -1,0 +1,52 @@
+.header {
+    text-align: center;
+}
+
+.body {
+    margin-left: 33%;
+    margin-right: 26%;
+}
+
+.body .menu_left {
+    float: left;
+}
+
+.body .menu_left ul {
+    list-style-type: none;
+    font-size: 70px;
+    margin-left: 35px;
+}
+
+.body .menu_left .duoi1{
+    margin-left: 13px;
+}
+
+.body .menu_right {
+    float: right;
+    background-color: rgb(249, 141, 9);
+    height: 690px;
+}
+
+.body .menu_right .menu1 {
+    float: left;
+    margin-left: 13px;
+}
+.body .menu_right .menu1 .h1{
+    font-size: 30px;
+}
+.body .menu_right .menu1 p{
+    font-weight: bold;
+}
+
+.body .menu_right .menu1 .duoi2{
+    margin-top: 105px;
+    margin-left: -13px;
+}
+
+.body .menu_right .menu2 {
+    float: right;
+    margin-right: 20px;
+}
+.body .menu_right .menu2 ul{
+    list-style-type: none;
+}

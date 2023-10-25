@@ -1,0 +1,260 @@
+/* Phan Dau*/
+.header {
+    border-style: solid;
+    height: 100px;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.header .img_left {
+    float: left;
+    margin-left: 10%;
+}
+
+.header .img_right {
+    float: right;
+    margin-right: 10%;
+}
+
+.header span {
+    color: rgb(0, 0, 255);
+    font-size: 60px;
+}
+
+/* Phan Than*/
+
+.body {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+/* Menu left Css*/
+.body .menu_left {
+    border-style: solid;
+    float: left;
+    width: 200px;
+    height: 1750px;
+}
+
+.body .menu_left ul li a {
+    color: blue;
+}
+
+/* Menu right css*/
+.body .menu_right {
+    border-style: solid;
+    float: right;
+    width: 926px;
+    height: 1750px;
+}
+
+/* Menu 1 css*/
+
+/*p1*/
+.body .menu_right .ty {
+    border-style: outset;
+    height: 240px;
+}
+
+.body .menu_right .menu1 h1 {
+    background-color: blue;
+    color: aliceblue;
+}
+
+.body .menu_right .menu1 .k1 .mn1 {
+    float: left;
+}
+
+.body .menu_right .menu1 .k0 {
+    font-size: 20px;
+    color: rgb(29, 141, 233);
+}
+
+.body .menu_right .menu1 .k1 .mn2 {
+    float: right;
+    margin-right: 80px;
+    font-size: 19px;
+}
+
+/*p2*/
+.body .menu_right .menu1_p2 .k0_p2 {
+    font-size: 20px;
+    color: rgb(29, 141, 233);
+}
+
+.body .menu_right .menu1_p2 .k1_p2 .mn1_p2 {
+    float: left;
+
+}
+
+.body .menu_right .menu1_p2 .k1_p2 .mn2_p2 {
+    float: right;
+    margin-right: 120px;
+    font-size: 19px;
+}
+
+.body .menu_right .ty2 {
+    border-style: outset;
+    height: 140px;
+}
+
+/* Menu 2*/
+.body .menu_right .ty3 {
+    border-style: outset;
+    height: 200px;
+}
+
+.body .menu_right .ty3 .menu2 h1 {
+    background-color: blue;
+    color: aliceblue;
+}
+
+.body .menu_right .ty3 .menu2 .k0_p3 {
+    font-size: 20px;
+    color: rgb(29, 141, 233);
+}
+
+.body .menu_right .ty3 .menu2 .k2 .mn3 {
+    float: left;
+}
+
+.body .menu_right .ty3 .menu2 .k2 .mn4 {
+    float: right;
+    margin-right: 150px;
+    font-size: 19px;
+}
+
+/* P2*/
+.body .menu_right .ty4 {
+    border-style: outset;
+    height: 120px;
+}
+
+.body .menu_right .ty4 .menu2_p2 .k0_p4 {
+    font-size: 20px;
+    color: rgb(29, 141, 233);
+}
+
+.body .menu_right .ty4 .menu2_p2 .k2_p2 .mn3_p2 {
+    float: left;
+}
+
+.body .menu_right .ty4 .menu2_p2 .k2_p2 .mn4_p2 {
+    float: right;
+    margin-right: 140px;
+    font-size: 19px;
+}
+
+.body .menu_right .ty4 .menu2_p2 .k2_p2 .mn4_p2 .chihuong {
+    float: right;
+}
+
+/* Du lich */
+
+.body .menu_right .ty5 {
+    border-style: outset;
+    height: 200px;
+}
+
+.body .menu_right .ty5 .menu3 h1 {
+    background-color: blue;
+    color: aliceblue;
+}
+
+.body .menu_right .ty5 .menu3 .k0_p5 {
+    font-size: 20px;
+    color: rgb(29, 141, 233);
+}
+
+.body .menu_right .ty5 .menu3 ul li {
+    font-size: 20px;
+}
+
+/* P2*/
+.body .menu_right .ty6 {
+    border-style: outset;
+    height: 150px;
+}
+
+.body .menu_right .ty6 .menu3_p2 .k0_p5 {
+    font-size: 20px;
+    color: rgb(29, 141, 233);
+}
+
+.body .menu_right .ty6 .menu3_p2 ul li {
+    font-size: 20px;
+}
+
+.body .menu_right .ty6 .menu3_p2 a {
+    float: right;
+    font-size: 20px;
+    margin-right: 130px;
+}
+
+/* Am thuc */
+.body .menu_right .ty7 {
+    border-style: outset;
+    height: 230px;
+}
+
+.body .menu_right .ty7 .menu4 h1 {
+    background-color: blue;
+    color: aliceblue;
+}
+
+.body .menu_right .ty7 .menu4 .k7 .mn7 ul {
+    float: left;
+    font-size: 20px;
+}
+
+.body .menu_right .ty7 .menu4 .k7 .mn8 {
+    float: right;
+    margin-right: 50px;
+}
+
+/*Am nhac */
+
+.body .menu_right .ty8 {
+    border-style: outset;
+    height: 230px;
+}
+
+.body .menu_right .ty8 h1 {
+    background-color: blue;
+    color: aliceblue;
+}
+
+.body .menu_right .ty8 .k0_p8 {
+    font-size: 20px;
+    color: rgb(29, 141, 233);
+}
+
+.body .menu_right .ty8 .k8 .mn9 {
+    float: left;
+    font-size: 20px;
+}
+
+.body .menu_right .ty8 .k8 .mn10 {
+    float: right;
+    margin-right: 50px;
+}
+
+.body .menu_right .ty8_p2 .k0_p9 {
+    font-size: 20px;
+    color: rgb(29, 141, 233);
+}
+
+.body .menu_right .ty8_p2 .mn11 {
+    float: left;
+    font-size: 20px;
+}
+
+.body .menu_right .ty8_p2 .mn12 {
+    float: right;
+    margin-right: 50px;
+}
+
+.body .menu_right .ty8_p2 .mn11 .chihuongxig {
+    margin-left: 690px;
+}

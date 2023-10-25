@@ -1,0 +1,114 @@
+.phandau {
+    text-align: center;
+    padding: 25px 0 25px 0;
+    background-color: #021239;
+    height: 70px;
+}
+
+body {
+    background-color: #fffbf3;
+}
+
+.phandau ul li {
+
+    display: inline-block;
+    padding: 0 15px 0 15px;
+    font-size: 25px;
+}
+
+.icon_sc {
+    margin-left: 1300px;
+    margin-top: -35px;
+}
+
+.phandau ul li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.phandau ul li a:hover {
+    color: #b03816;
+}
+
+.phandau .img_left {
+    float: left;
+    margin-left: 50px;
+}
+
+.img_xe {
+    width: 70%;
+}
+
+body{
+    background-image: url(./images-20231009T014506Z-001/images/banner-bg.png) ;
+    width: 100%;
+    background-color: #cccccc;
+}
+
+.tieude {
+    color: floralwhite;
+    margin-top: 200px;
+    float: left;
+    font-size: 30px;
+}
+
+.td1{
+    margin-left: -200px;
+}
+
+.td3{
+    margin-left: 65px;
+}
+
+.button_css{
+    margin-top: 600px;
+    margin-left: -800px;
+}
+
+.button_css .btn1{
+    background-color: #fffbf3;
+    width: 170px;
+    height: 40px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5%;
+}
+
+.button_css .btn2{
+    background-color: rgb(249, 107, 5);
+    width: 170px;
+    height: 40px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5%;
+}
+
+.button_img{
+    margin-top: -50px;
+    margin-left: 800px;
+}
+.button_img ul li{
+    margin-left: 120px;
+}
+
+.button_img img{
+    margin-top: 18px;
+}
+
+.button_img .img1{
+    background-color: rgb(249, 107, 5);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.button_img .img2{
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.phanthan{
+    margin-top: 1200px;
+}
